@@ -507,7 +507,7 @@ function RandomBox()
   do
     ((i = iTop + 1 + j))
     ((t = iLeft + 2 * iTrayWidth + 7))
-    echo -ne "\033[${i};${t}H  "
+    echo -ne "\033[${i};${t}H        "
   done
 
   #随机产生新的方块
